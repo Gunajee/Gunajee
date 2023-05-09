@@ -1,0 +1,78 @@
+body{
+    background-image: url("https://images.pond5.com/stopwatch-ticking-black-background-hd-000611219_prevstill.jpeg");
+    background-size: 105%;
+    width: 100%;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+}
+#title{
+    text-align:center;
+    color:#f0f8ff
+}
+.container {
+    width: auto;
+    height: auto;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .circle {
+    width: 250px;
+    height: 250px;
+    opacity: 0.7;
+    border-radius: 50%;
+    background-color: #ffffff;
+  }
+  #timer{
+    text-align: center;
+    padding: 20px;
+  }
+  #time{
+    text-align: center;
+  }
+  #buttons {
+    margin-top: 50px;
+    text-align: center;
+}
+ 
+.btn {
+    width: 100px;
+    padding: 10px 15px;
+    margin: 50px 50px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 4px;
+    border-top-left-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.5s;
+    color: white;
+    font-weight: 500;
+}
+ 
+#start {
+    background-color: #009779;
+}
+ 
+#stop {
+    background-color: #0e85fc;
+}
+ 
+#reset {
+    background-color: #c91400;
+}
+.stopwatch {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin: 50px 0;
+  color:#000000;
+}
+
+button {
+  font-size: 24px;
+  padding: 10px;
+  margin: 0 10px;
+}
