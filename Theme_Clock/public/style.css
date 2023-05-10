@@ -1,0 +1,78 @@
+body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+  }
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+#clock-container{
+ text-align: center;
+
+}
+#toggleButton{
+    border-radius: 10px;
+    border: 3px solid #000000;
+    font-size: large;
+}
+#clock {
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    width: 40vw;
+    background-color: aliceblue;
+    background: url(https://e7.pngegg.com/pngimages/449/884/png-clipart-clock-face-digital-clock-time-clock-angle-white-thumbnail.png) no-repeat;
+    background-size: 100%;
+}
+  
+#hour,
+#minute,
+#second {
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+  
+#hour {
+    width: 1.8%;
+    height: 25%;
+    top: 25%;
+    left: 48.85%;
+    opacity: 0.8;
+}
+  
+#minute {
+    width: 1.6%;
+    height: 30%;
+    top: 19%;
+    left: 48.9%;
+    opacity: 0.8;
+}
+  
+#second {
+    width: 1%;
+    height: 40%;
+    top: 9%;
+    left: 49.25%;
+    opacity: 0.8;
+}
+#time {
+    font-size: 175px;
+    width: 900px;
+    margin: 200px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+  }
+
+  #date{
+    border: 2px solid #000000;
+    border-radius: 10px;
+    text-align:center;
+    font-weight: 250px;
+    font-size: 70px;
+    margin-left: 100px;
+  }
