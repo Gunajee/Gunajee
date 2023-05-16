@@ -1,0 +1,62 @@
+#bgImage{
+    width: 99%;
+    height: 400px;
+    position:absolute;
+}
+h1{
+    text-align: center;
+    color:#ffffff;
+    position: relative;
+}
+.input-container {
+    position:relative;
+    margin-left: 500px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.textBox {
+    background-color: #ffffff;
+    color:#000000;
+    width:300px;
+    height:25px;
+    border-radius:25px;
+}
+#addButton{
+    background-color: #4deb5a;
+    color:#000000;
+    width:100px;
+    height:30px;
+    border-radius: 25px;
+    display: block;
+    text-align: center;
+}
+.container{
+    margin-top: 270px;
+    text-align: center;
+    align-items: center;
+}
+#about{
+    text-align: center;
+}
+.bucketList{
+    margin:22px;
+  }
+  .bucketList label{
+  border:1px solid #000000;
+    border-radius: 10px;
+    padding:10px;
+  }
+  #resetButton {
+    margin-top: 20px;
+    background-color: #4deb5a;
+    padding:15px;
+    border-radius: 10px;
+    margin-left: 600px;
+  }
+
+  .bucketList.completed label {
+    text-decoration: line-through;
+    color: gray;
+  }
