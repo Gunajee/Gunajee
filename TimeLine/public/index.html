@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Timeline Webpage</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+  <header>
+    <h1 id="timeLine"><ion-icon name="menu-outline"></ion-icon> TimeLine</h1>
+    <h1>My Profile</h1>
+    <div class="profile-info">
+      <img src="https://wallpapers.com/images/hd/cool-profile-picture-awled9dwo4qq2yv2.jpg" alt="Profile Image" id="timeline">
+      <h3 id="aboutMe">Guna M</h3>
+      <p>Full stack Developer</p>
+    </div>
+  </header>
+  <h2 id="myTasks">My Tasks</h2>
+  <p id="dateTime"></p>
+  <section class="timeline">
+    
+    <div class="timeline-line"></div>
+
+    <div class="task completed">
+      <div class="task-circle"></div>
+      <div class="task-details">
+        <div class="column"><h3>Create New Project</h3>
+        <p>web app</p></div>
+        <div class="column"><p>Time: 5pm</p></div>
+      </div>
+    </div>
+
+    <div class="task completed">
+      <div class="task-circle"></div>
+      <div class="task-details">
+        <div class="column"><h3>Catch up with George</h3>
+          <p>Mobile project</p>
+        </div>
+          <div class="column"><p>Time: 3pm</p></div>
+      </div>
+    </div>
+
+    <div class="task">
+      <div class="task-circle"></div>
+      <div class="task-details">
+        <div class="column"><h3>Design Exploration</h3>
+        <p>company website</p></div>
+          <div class="column"><p>Time: 2pm</p></div>
+      </div>
+    </div>
+
+    <div class="task">
+      <div class="task-circle"></div>
+      <div class="task-details">
+        <div class="column"><h3>Team Meeting</h3>
+        <p>Hangouts</p></div>
+          <div class="column"><p>Time: 2pm</p></div>
+      </div>
+    </div>
+
+    <div class="task">
+      <div class="task-circle"></div>
+      <div class="task-details">
+        <div class="column"><h3>Lunch with Mary</h3>
+        <p>Girlfriend dating</p></div>
+          <div class="column"><p>Time: 1pm</p></div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <select id="filter" class="filter">
+      <option value="all">All</option>
+      <option value="completed">Completed</option>
+      <option value="incomplete">Incomplete</option>
+    </select>
+  </footer>
+  <script src="app.js"></script>
+  <script>
+    var date = new Date();
+	document.getElementById("dateTime").innerHTML = date;
+  </script>
+  
+</body>
+</html>
