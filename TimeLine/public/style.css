@@ -1,0 +1,96 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+#timeLine{
+  text-align: left;
+}
+.profile-info {
+  margin-top: 20px;
+}
+
+.profile-info img {
+  width: 100px;
+  border-radius: 50%;
+}
+#myTasks{
+  padding:10px;
+  margin-left: 50px;
+}
+#dateTime{
+  padding:10px;
+  margin-left: 50px;
+}
+.column {
+  float: left;
+  width: 50%;
+}
+/* Timeline Styles */
+.timeline {
+  position: relative;
+  padding: 20px;
+}
+
+.timeline-line {
+  position: absolute;
+  top: 0;
+  left: 30px;
+  bottom: 0;
+  width: 4px;
+  background-color: #007bff;
+  margin-left: 20px;
+}
+
+.task {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.task-circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #007bff;
+  margin-right: 20px;
+}
+
+.task-details {
+  flex-grow: 1;
+    display: flex;
+}
+
+.task-details h3 {
+  margin: 0;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+.filter {
+  border: none;
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.completed-color .task-circle {
+  background-color: red;
+}
+
