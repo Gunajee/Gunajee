@@ -1,0 +1,152 @@
+#dashBoard
+{
+  color: black;
+  background-color:wheat;
+  margin: 0px;
+  font-size: 15px;
+  height: 50px;
+  width: 100%;
+}
+#titleImage{
+   width:auto;
+   height:400px;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+}
+#cartItems{
+    text-align: right;
+    margin-right: 20px;
+    padding:10px;
+}
+#shop{
+  margin-left: 20px;
+  padding:10px;
+}
+.column {
+  float: left;
+  width: 50%;
+  /* margin-right: 20px; */
+  /* margin-left: 20px; */
+}
+.row {
+  height:50%;
+  width:100%;
+}
+.row1 {
+  display: flex;
+  margin-left: 30px;
+}
+
+.column1{
+  width:350px;
+}
+.column1 img {
+  width: 200px;
+  height: 150px;
+}
+
+#productImage1{
+  width: 80%;
+  float: left;
+}
+#productAdd1{
+  text-align: right;
+}
+#productImage2{
+  width: 80%;
+  float: left;
+}
+#productAdd2{
+  text-align: right;
+}
+#productImage3{
+  width: 80%;
+  float: left;
+}
+#productAdd3{
+  text-align: right;
+}
+#productImage4{
+  width: 80%;
+  float: left;
+}
+#productAdd4{
+  text-align: right;
+}
+#footerparagraph{
+  padding:10px;
+  margin-left: 20px;
+}
+#footer{
+  color: black;
+  background-color:wheat;
+  margin: 0px;
+  height: 120px;
+  width: 100%;
+}
+#productFooterAddress{
+  text-align: right;
+  margin-right: 20px;
+}
+
+.addToCartBtn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.cartDetails {
+  background-color: #fff;
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+}
+
+.cartDetails h2 {
+  margin-top: 0;
+}
+
+#cartProducts {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+#cartProducts p {
+  margin-top: 0;
+}
+
+#checkoutBtn,
+#closeCartBtn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+h1{
+  margin-left: 20px;
+}
